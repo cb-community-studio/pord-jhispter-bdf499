@@ -1,0 +1,50 @@
+application {
+  config {
+    applicationType monolith
+    authenticationType jwt
+    baseName pordjhispter
+    blueprints []
+    buildTool maven
+    cacheProvider redis
+    clientFramework react
+    clientPackageManager npm
+    clientTheme yeti
+    creationTimestamp 1696246829548
+    databaseType sql
+    devDatabaseType mysql
+    dtoSuffix DTO
+    enableGradleEnterprise false
+    enableHibernateCache true
+    enableSwaggerCodegen false
+    enableTranslation true
+    gradleEnterpriseHost ""
+    jhiPrefix jhi
+    jwtSecretKey "KbdoCJfFSL1LRCOjrvDljqDA8iDLUuYYl1/Hc+ETyOM5uJizLHVVcEXOuCDaZyuGwBPJ07Rf0VxjOCv2AJqPBiGLY2Umqi5OYDisBOQMZWK+Ww/vB3muANf6ezTsYKfmcOSrDzss1PhUkjyNhSxFQQv7/mdGt1MYQPtUg2OkaA=="
+    languages [en, my]
+    messageBroker false
+    microfrontend false
+    microfrontends []
+    nativeLanguage en
+    otherModules []
+    packageName my.codebridge.community.pordjhispter
+    prodDatabaseType mysql
+    reactive true
+    searchEngine false
+    serverPort 8080
+    serviceDiscoveryType eureka
+    skipClient false
+    skipUserManagement false
+    testFrameworks []
+    websocket false
+    withAdminUi true
+  }
+
+  
+}
+
+
+
+paginate * with pagination
+service * with serviceImpl
+dto * with mapstruct
+
